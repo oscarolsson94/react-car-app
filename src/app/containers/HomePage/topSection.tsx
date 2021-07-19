@@ -12,7 +12,25 @@ const TopSectionContainer = styled.div`
         justify-between
         px-3
         lg:px-12
-    `}
+    `};
+`;
+
+const LeftContainer = styled.div`
+  ${tw`
+        w-1/2 
+        flex
+        flex-col
+    `};
+`;
+
+const RightContainer = styled.div`
+  ${tw`
+        w-1/2 
+        flex
+        flex-col
+        relative
+        mt-20
+    `};
 `;
 
 export function TopSection() {}
