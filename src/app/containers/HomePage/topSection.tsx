@@ -2,6 +2,9 @@ import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
 
+import MclarenCarImg from "../../../assets/images/mclaren-orange-big.png";
+import BlobImg from "../../../assets/images/blob.svg";
+
 const TopSectionContainer = styled.div`
   min-height: 400px;
   margin-top: 6em;
@@ -105,10 +108,10 @@ export function TopSection() {
       </LeftContainer>
       <RightContainer>
         <BlobContainer>
-          <img src="" alt="" />
+          <img src={BlobImg} alt="colored background blob" />
         </BlobContainer>
         <StandaloneCar>
-          <img src="" alt="" />
+          <img src={MclarenCarImg} alt="picture of a Mclaren" />
         </StandaloneCar>
       </RightContainer>
     </TopSectionContainer>
