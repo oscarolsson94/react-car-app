@@ -116,6 +116,22 @@ const StandaloneCar = styled.div`
     height: 100%;
     max-width: fit-content;
   }
+
+  @media (min-width: ${SCREENS.sm}) {
+    height: 16em;
+    right: -6em;
+    top: -6em;
+  }
+  @media (min-width: ${SCREENS.lg}) {
+    height: 21em;
+    right: -8em;
+    top: -5em;
+  }
+  @media (min-width: ${SCREENS.xl}) {
+    height: 30em;
+    right: -13em;
+    top: -9em;
+  }
 `;
 
 export function TopSection() {
@@ -134,7 +150,7 @@ export function TopSection() {
           <img src={BlobImg} alt="colored background blob" />
         </BlobContainer>
         <StandaloneCar>
-          <img src={MclarenCarImg} alt="picture of a Mclaren" />
+          <img src={MclarenCarImg} alt="a Mclaren" />
         </StandaloneCar>
       </RightContainer>
     </TopSectionContainer>
