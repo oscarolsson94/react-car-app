@@ -29,7 +29,7 @@ const Image = styled.div`
     `}
   img {
     width: auto;
-    height: 100%auto;
+    height: 100%;
   }
 `;
 
