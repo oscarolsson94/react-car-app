@@ -33,4 +33,21 @@ const RightContainer = styled.div`
     `};
 `;
 
+const Slogan = styled.h1`
+  ${tw`
+        font-bold
+        text-2xl 
+        text-black
+        mb-4
+        sm:text-3xl 
+        sm:leading-snug
+        md:text-5xl
+        md:font-extrabold
+        lg:font-black
+        lg:leading-normal
+        xl:text-6xl 
+        xl:leading-relaxed
+    `}
+`;
+
 export function TopSection() {}
