@@ -21,4 +21,25 @@ const LogoText = styled.div`
     `};
 `;
 
-export function Logo() {}
+const Image = styled.div`
+  width: auto;
+  ${tw`
+        h-6 
+        md:h-9
+    `}
+  img {
+    width: auto;
+    height: 100%auto;
+  }
+`;
+
+export function Logo() {
+  return (
+    <LogoContainer>
+      <Image>
+        <img src={CarLogoImg} />
+      </Image>
+      <LogoText>Yourcar.</LogoText>
+    </LogoContainer>
+  );
+}
