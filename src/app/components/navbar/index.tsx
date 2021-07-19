@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
 
-const NavBarContainer = styled.div`
+const NavbarContainer = styled.div`
   min-height: 68px;
   ${tw`
         w-full
@@ -12,5 +12,9 @@ const NavBarContainer = styled.div`
         items-center
         justify-between
         lg:px-12
-    `}
+    `};
 `;
+
+export function Navbar() {
+  return <NavbarContainer></NavbarContainer>;
+}
