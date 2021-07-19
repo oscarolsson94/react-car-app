@@ -92,4 +92,25 @@ const StandaloneCar = styled.div`
   }
 `;
 
-export function TopSection() {}
+export function TopSection() {
+  return (
+    <TopSectionContainer>
+      <LeftContainer>
+        <Slogan>Rent The Best Quality Cars Available With Us</Slogan>
+        <Description>
+          Always choose the best cars from our local stores, or order it
+          remotely, always at the best possible price for you and for as long as
+          you like
+        </Description>
+      </LeftContainer>
+      <RightContainer>
+        <BlobContainer>
+          <img src="" alt="" />
+        </BlobContainer>
+        <StandaloneCar>
+          <img src="" alt="" />
+        </StandaloneCar>
+      </RightContainer>
+    </TopSectionContainer>
+  );
+}
