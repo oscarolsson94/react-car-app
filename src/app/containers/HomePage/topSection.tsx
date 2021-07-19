@@ -50,4 +50,16 @@ const Slogan = styled.h1`
     `}
 `;
 
+const Description = styled.p`
+  ${tw`
+        text-xs
+        text-grey-800
+        overflow-hidden
+        max-h-12
+        sm:max-h-full
+        lg:text-sm
+        xl:text-lg
+    `}
+`;
+
 export function TopSection() {}
