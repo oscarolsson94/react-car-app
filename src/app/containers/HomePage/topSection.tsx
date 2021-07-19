@@ -56,7 +56,7 @@ const Slogan = styled.h1`
 const Description = styled.p`
   ${tw`
         text-xs
-        text-grey-800
+        text-gray-800
         overflow-hidden
         max-h-12
         sm:max-h-full
